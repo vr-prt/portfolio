@@ -3,11 +3,11 @@ import './Header.scss';
 export default function Header() {
   return (
     <header>
-      <div className="container">
+      <nav className="container">
         <ul>
           <li>Victor Prêté</li>
         </ul>
-      </div>
+      </nav>
     </header>
   )
 }
