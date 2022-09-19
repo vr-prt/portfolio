@@ -4,8 +4,10 @@ import Banner from '../components/Banner.jsx';
 function App() {
   return (
     <div>
-      <Header />
-      <Banner />
+      <div className="layout">
+        <Header />
+        <Banner />
+      </div>
     </div>
   )
 };
